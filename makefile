@@ -1,6 +1,6 @@
 NAME = libft.a
 
-SRCS = ft_isalpha.c
+SRCS = ft_isalnum.c ft_isdigit.c ft_isalpha.c
 OBJS = ${SRCS:.c=.o}
 
 LIBC = ar -rcs
@@ -13,6 +13,8 @@ RM = rm -f
 
 ${NAME}: ${OBJS}
 	${LIBC} ${NAME} ${OBJS}
+	gcc main.c -L. -lft -o program
+	./program
 
 all: ${NAME}
 

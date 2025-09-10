@@ -5,6 +5,8 @@
 # include <stdlib.h>
 # include <stdio.h>
 
-int ft_isalpha(char);
+int ft_isalpha(int);
+int ft_isdigit(int);
+int ft_isalnum(int);
 
 #endif
