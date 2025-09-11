@@ -1,9 +1,6 @@
 #include "libft.h"
 
 int main(){
-    printf("%d\n", ft_isalnum('5'));
-    printf("%d\n", ft_isalnum('a'));
-    printf("%d\n", ft_isalnum('.'));
-    printf("%d\n", ft_isalnum('A'));
+    printf("%s\n", ft_strnstr("hello world how are you", "how", 15));
     return 0;
 }
