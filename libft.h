@@ -25,4 +25,14 @@ int     ft_strncmp(const char *, const char *, size_t);
 void    *ft_memchr(const void *, int, size_t);
 int     ft_memcmp(const void *, const void *, size_t );
 char    *ft_strnstr(const char *,	const char *, size_t );
+int     ft_atoi(const char *);
+void    *ft_calloc(size_t , size_t );
+char    *ft_strdup(const char *);
+char    *ft_substr(char const *, unsigned int , size_t );
+char    *ft_strjoin(char const *s1, char const *s2);
+char    *ft_strtrim(char const *s1, char const *set);
+char    **ft_split(char const *s, char c);
+char    *ft_itoa(int n);
+
+
 #endif
